@@ -10,7 +10,7 @@ export const App = () => {
 const [count, setCount] = useState(0);
 const year = new Date().getFullYear(); //Вложить в переменную функцию текущего года
 return (
-	//Декларативный стиль
+	//Декларативный стиль()
 	createElement(Fragment, null,
 	createElement('div', null,
 		createElement('a', { href: "https://vite.dev", target: "_blank" }),
